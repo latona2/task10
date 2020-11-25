@@ -1,0 +1,31 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+.card-start{
+    padding: 10px;
+}
+
+.LabelMin{
+    color: blue
+}
+
+.LabelMax{
+    color: red;
+}
+
+.LabelMin, .LabelMax{
+    font-size: 24px;
+    text-align: center;
+}
+
+.card{
+    transition: 0.5s;
+    background-color: rgba(120, 228, 87, 0.548);
+}
+
+.scale-0{
+    transform: scale(0);
+}
+
